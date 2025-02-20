@@ -2,7 +2,7 @@
 id: 9jw9f5vkktcucal0soa18st
 title: Adswizz
 desc: ''
-updated: 1740066648585
+updated: 1740068438222
 created: 1740064777885
 ---
 - Description:  
@@ -25,8 +25,8 @@ The Ad Library is responsible for:
 - [Permutive](/ncu-ad-manager/src/Modules/Permutive/Permutive.ts)
 
 ## Flow 
-
-## Tasks
-- [ ] Write the general flow.
-
-## Ideas for Improvement
+- Dispatch the `ADSWIZZ.DECORATE_URL` action with the parameters passed into the action payload
+- Action triggers the `enhanceStreamUrl` which takes the payload and attempts to wait for SDK by calling the `waitForAdswizzSDK` fn(attempts to find the SDK), if this is errored out, it is handled by dispatching an action with the basic URL and the completed action. Otherwise it continues by calling sdk decorate fn and passing this new url to the `setStreamUrlParams` 
+-  `setStreamUrlParams` takes the new url and appends the consent string, platform string, covatic and permutive. 
+- In order to validate, the `checkUrlValidity` uses the `newUrl.protocol`, if it does not pass the check it returns the url from the SDK decorated URL. 
+- The new url is then sent through the `ADSWIZZ.COMPLETED` action via the payload to resolve the promise.
