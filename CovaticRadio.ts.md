@@ -1,9 +1,9 @@
 ---
-id: z21xebgkb5rm4iz6oxt1vfo
-title: Config
+id: dl73hpl659n9px8bj5nxbpp
+title: ts
 desc: ''
-updated: 1740078198389
-created: 1740078198389
+updated: 1740079141073
+created: 1740079141073
 ---
 ## Description: 
 - Related Files: [File](/ncu-ad-manager/src/)

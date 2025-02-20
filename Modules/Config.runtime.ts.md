@@ -1,7 +1,7 @@
 ---
 id: 8h7foyd9cqkfyiyxo4h19st
-title: ts
-desc: ''
+title: Config Runtime
+desc: 'Dynamic config after initial config'
 updated: 1740073792733
 created: 1740073792733
 ---
