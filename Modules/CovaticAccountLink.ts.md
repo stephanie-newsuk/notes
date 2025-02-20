@@ -11,18 +11,16 @@ created: 1740073053633
 - Related Files: [Config](/ncu-ad-manager/src/Modules/Config/Config.runtime.ts)
 
 ## Summary
-This is to link user demographic data to covatic's tracking system. This handles personal data like the age, email, postcode and gender of the user. 
+This is to link user demographic data to covatic after the lambda has returned the user information. This handles personal data like the age, email, postcode and gender of the user. This sends the data to Covatic for better ad targeting. This helps to build richer user profiles. 
 
 ## Key Links
 - [File](/ncu-ad-manager/src/)
 
 ## Flow 
-- It waits for both user and covatic to be ready before going ahead with this module. [Config adds user data to the config](/ncu-ad-manager/src/Modules/Config/Config.runtime.ts). Then it calls the `sendAdditionalUserInfo` fn. 
-- This fn gets the user information from the store 
-- 
+- It waits for both user data from the lambda and covatic to be ready before going ahead with this module. [Config adds user data to the config](/ncu-ad-manager/src/Modules/Config/Config.runtime.ts). Then it calls the `sendAdditionalUserInfo` fn. 
+- This fn gets the user information from the store that has been retrieved by the lambda. Then sends each piece to the Covatic SDK. 
+
 
 ## Tasks
-- //TODO: [ ] This is linked into Config.runtime doc - limk to the config_fetched_useR_info from there - grabs data from a lambda?
-
 
 ## Ideas for Improvement

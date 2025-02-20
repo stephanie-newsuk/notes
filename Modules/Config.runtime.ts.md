@@ -19,9 +19,14 @@ created: 1740073792733
 1. linkedaccount is enabled
 2. publisher audiences is enabled
 3. liveramp is enabled
-- calls the AWS endpoint with JSONP. It pushes the lambda into the tasks. 
+- calls the AWS endpoint with JSONP. It pushes the lambda into the tasks.
+- `loadUserIntoLamdbda` gets the id from the cookie and calls the lambda with the ID to fetch data. 
+- The fn first gets the src attribute from the script tag that loads the ad manager and the creates the new URL object from it with /covatic appended onto it. This ensures the lambda calls the same domain as the ad manager script. 
+- `const: brandCookie && const: userCookie` the brand specific cookie name from the store ad retrieves it from the window. If they exist it is added as query params to the lambda url. The cookie contains user unique identifier to the brand and uses the ID to look up user information in the backend and return personalised data. 
+- `const: UserInfo` makes the JSONP call to the lambda which passes the cookie ID to get their data. 
+- the cookie (ID card) allows you to get your user data (personal file) from the lambda (the secure office)
 
 ## Tasks
-- [ ] // TODO: Add notes for the rest of the file outside of the lambda function 
+- [ ] // TODO: Add notes for the rest of the file outside of the lambda function and load runtime config. 
 
 ## Ideas for Improvement
