@@ -1,7 +1,7 @@
 ---
 id: hctbaiur38yhwqhe3ejtb7x
-title: ts
-desc: ''
+title: Covatic
+desc: 'For user tracking and audience segmentation'
 updated: 1740073033601
 created: 1740070162239
 ---

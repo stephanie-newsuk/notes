@@ -5,14 +5,15 @@ desc: 'Dynamic config after initial config'
 updated: 1740073792733
 created: 1740073792733
 ---
+## Code Source
+- Related Files: [Config Reducer](/ncu-ad-manager/src/Modules/Config/Config.reducer.ts)
+- Related Files: [Config](/ncu-ad-manager/src/Modules/Config/Config.ts)
+
 ## Summary
 This handles dynamic configuration loading after the initial config is set up. 
 
 ## Key Links
-- Related Files: [Config Reducer](/ncu-ad-manager/src/Modules/Config/Config.reducer.ts)
 - Related Files: [Covatic](/ncu-ad-manager/src/Modules/Covatic/CovaticAccountLink.ts)
-- Related Files: [Config](/ncu-ad-manager/src/Modules/Config/Config.ts)
-
 
 ## General Flow
 - From `loadRuntimeConfig` you grab a number of config from the store.

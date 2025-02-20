@@ -2,11 +2,11 @@
 id: jxt29ea2g52jiyvcfwdzmtp
 title: Default
 desc: ''
-updated: 1740070287736
+updated: 1740079934480
 created: 1740064317643
 ---
-## Description: 
-- Related Files: [File](/ncu-ad-manager/src/)
+## Code Source
+- [File](/ncu-ad-manager/src/)
 
 ## Summary
 
