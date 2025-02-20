@@ -2,19 +2,21 @@
 id: jxt29ea2g52jiyvcfwdzmtp
 title: Default
 desc: ''
-updated: 1740064765066
+updated: 1740070287736
 created: 1740064317643
-Title: Template
-Description: ''
 ---
+## Description: 
+- Related Files: [File](/ncu-ad-manager/src/)
+
 ## Summary
-- Description:  
-- Related files: [File](/ncu-ad-manager/src/)
 
 ## Key Links
+- [File](/ncu-ad-manager/src/)
+
+## Flow 
+- 
 
 ## Tasks
-- [ ] Check logic at line X
-- [ ] Write unit test for function Y
+- [ ] 
 
 ## Ideas for Improvement

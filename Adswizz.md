@@ -2,10 +2,10 @@
 id: 9jw9f5vkktcucal0soa18st
 title: Adswizz
 desc: ''
-updated: 1740068438222
+updated: 1740070233871
 created: 1740064777885
 ---
-- Description:  
+## Description:  
 - Related files: [File](/ncu-ad-manager/src/Modules/AdsWizz/AdsWizz.ts)
 - Related files: [File](/ncu-ad-manager/src/Modules/AdsWizz/AdsWizz.test.ts)
 - Related files: [File](/ncu-ad-manager/src/Modules/AdsWizz/Adswizz.actions.ts)
