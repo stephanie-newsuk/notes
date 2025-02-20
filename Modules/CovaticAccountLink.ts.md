@@ -13,6 +13,8 @@ created: 1740073053633
 ## Summary
 This is to link user demographic data to covatic after the lambda has returned the user information. This handles personal data like the age, email, postcode and gender of the user. This sends the data to Covatic for better ad targeting. This helps to build richer user profiles. 
 
+This is separated for single responsibility principle and allows for easy modification to data handling without touching core tracking. Can disbale user data enrichment without affecting basic tracking functionality.
+
 ## Key Links
 - [File](/ncu-ad-manager/src/)
 
