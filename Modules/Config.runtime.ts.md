@@ -5,14 +5,23 @@ desc: ''
 updated: 1740073792733
 created: 1740073792733
 ---
-## Description: 
-- Related Files: [File](/ncu-ad-manager/src/Modules/Covatic/CovaticAccountLink.ts)
-- Related Files: [File](/ncu-ad-manager/src/Modules/Config/Config.ts)
-
 ## Summary
+This handles dynamic configuration loading after the initial config is set up. 
 
 ## Key Links
-- [File](/ncu-ad-manager/src/)
+- Related Files: [Config Reducer](/ncu-ad-manager/src/Modules/Config/Config.reducer.ts)
+- Related Files: [Covatic](/ncu-ad-manager/src/Modules/Covatic/CovaticAccountLink.ts)
+- Related Files: [Config](/ncu-ad-manager/src/Modules/Config/Config.ts)
+
+
+## General Flow
+- From `loadRuntimeConfig` you grab a number of config from the store.
+- If the user is not logged in, there is an action that removes sensitive info which is removed via a [reducer](/ncu-ad-manager/src/Modules/Config/Config.reducer.ts) 
+- Tasks that are pushed into the `runtimeConfigTasks` are based on enabled features: 
+1. loadAutoKPI - Gets Ad Manager data 
+2. loadIPCheck - Checks user's IP
+3. Dynamic floor pricing
+4. Grab user data for targeting dependent on logic [Go to Flow for the Lmabda Function]
 
 ## Flow for the Lambda Function 
 - Within the `loadRuntimeConfig` there is a check for whether the user is logged in, with an unhashedemail (so we do not make unneeded calls to the lambda) and at least one of the following features should be enabled in the config:
@@ -27,6 +36,5 @@ created: 1740073792733
 - the cookie (ID card) allows you to get your user data (personal file) from the lambda (the secure office)
 
 ## Tasks
-- [ ] // TODO: Add notes for the rest of the file outside of the lambda function and load runtime config. 
 
 ## Ideas for Improvement
