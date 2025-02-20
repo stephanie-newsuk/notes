@@ -1,7 +1,7 @@
 ---
 id: 4tfjy372vbbqhg265u79zxs
 title: 'Covatic Account Link'
-desc: ''
+desc: 'Refined user data enrichment for Covatic'
 updated: 1740073053633
 created: 1740073053633
 ---

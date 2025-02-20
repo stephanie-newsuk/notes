@@ -1,7 +1,7 @@
 ---
 id: z21xebgkb5rm4iz6oxt1vfo
 title: Config
-desc: ''
+desc: 'Gathers and sets targeting data'
 updated: 1740078198389
 created: 1740078198389
 ---
