@@ -6,9 +6,9 @@ updated: 1740070233871
 created: 1740064777885
 ---
 ## Code Source:  
-- Related files: [File](/ncu-ad-manager/src/Modules/AdsWizz/AdsWizz.ts)
-- Related files: [File](/ncu-ad-manager/src/Modules/AdsWizz/AdsWizz.test.ts)
-- Related files: [File](/ncu-ad-manager/src/Modules/AdsWizz/Adswizz.actions.ts)
+- Related files: [Adswizz main file](/ncu-ad-manager/src/Modules/AdsWizz/AdsWizz.ts)
+- Related files: [Test file](/ncu-ad-manager/src/Modules/AdsWizz/AdsWizz.test.ts)
+- Related files: [Actions](/ncu-ad-manager/src/Modules/AdsWizz/Adswizz.actions.ts)
 
 ## Summary
 AdsWizz `decorateStreamUrl` is called by [cps-content-render](../../../times/cps-content-render/packages/radio/src/pages/Live/LiveAudioPlayer.tsx). The Times is responsible for passing the parameters to the Ad Library. 
