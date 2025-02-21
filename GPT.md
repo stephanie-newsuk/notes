@@ -1,9 +1,9 @@
 ---
-id: 3oxogbld03hjuv1ws4pvjgo
+id: z9yx4tzorhokwigss7fy3vh
 title: GPT
-desc: 'Google Publisher Tag - Google's ad serving technology'
-updated: 1740151942733
-created: 1740149636106
+desc: 'test'
+updated: 1740152186133
+created: 1740149636114
 ---
 ## Summary
 Google's GPT manages ad delivery and rendering, slot deifntions, targeting and auction processes. This integrates with GAM to serve ads. 
@@ -22,8 +22,6 @@ There are a number of steps to the GPT flow that are triggered by actions asynch
 - `detectPrivateSandboxLabel` detects if the private sandbox label is set and if it is it will dispatch the `GPT.DETECT_PRIVATE_SANDBOX_LABEL` action. 
   - It is part of Google's privacy sandbox initiative (solution to phasing out third party cookies). It detects if the user's browser is in the cookie deprecation trial. Checks if the label API is available in the browser and grabs the value from the browser. This is set as targeting data with `cft` cookie. This is how infor is used by GAM to serve appropriate ads. 
 
-
-  
 -  `onSlotRender` is triggered by `addSlotRenderEventListener` and is triggered when a slot is rendered. It logs the slot details and the GAM link. 
 - `addImpressionViewableEventListener` is triggered by `addImpressionViewableEventListener` and is triggered when a slot is rendered. It logs the slot details and the GAM link. 
 
@@ -40,12 +38,5 @@ There are a number of steps to the GPT flow that are triggered by actions asynch
 - It then enables services. 
 - It then prepares slots. 
 - It then completes page level targeting. 
-- 
-## TODO: Finish GPT flow
 
-## Relevant Files
-[[GAM]]
-[[Consent]]
-[[Slots]]
-[[BasicRefresh]] - Impression_viewable_event triggers BasicRefresh
-[[Refresh]] - BasicRefresh triggers Refresh
+## TODO: Finish GPT flow
