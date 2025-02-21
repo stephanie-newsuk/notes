@@ -17,7 +17,7 @@ The Ad Library is responsible for:
 - injecting the AdsWizz script onto the page
 - dispatching actions on the AdsWizz status
 - grabs the permutive and covatic segments (waits for covatic to return segments for 500ms) required for the stream url which has to be appended to the src in the audio element tag on the page. 
-- returns the stream url from the action's payload (that you send) to the cps content render in the form of a resolved promise.
+- returns the stream ur[[root]]l from the action's payload (that you send) to the cps content render in the form of a resolved promise.
 
 ## Key Links
 - [cps](../../../times/cps-content-render/packages/radio/src/pages/Live/LiveAudioPlayer.tsx)

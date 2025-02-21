@@ -17,3 +17,6 @@ Covatic is a user behaviour tracking and audience segmentation SDK that tracks a
 - When initiated the `sendArticleOnPageLoadConsumption` fn is called. This creates the consumption event. This is then passed into the SDK and an action dispatched. 
 - `getSegments` is called which calls `isLoggedIn` from [Page module](/ncu-ad-manager/src/Utils/Page/Page.ts). 
 - It then grabs the segments via `getLinkedAudiences` if the user is logged in, if not then it grabs the segments via `getAudiences`, they return the segments if successful. 
+[[CovaticRadio]]
+[[Config]]
+[[CovaticAccountLink]]
