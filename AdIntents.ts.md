@@ -5,13 +5,16 @@ desc: ''
 updated: 1740063248122
 created: 1740062663635
 ---
-# Notes on Bidding Logic
+## Summary
 
-## 📌 Test!
+## Source Code
+- [File](/ncu-ad-manager/src/)
 
-[File](/ncu-ad-manager/src/Modules/Permutive/Permutive.test.ts)
-- Line 45: Investigate how bid responses are processed.
 
-## ❗ Auction Timeout Optimization
-- File: `[auction.js](command:dendron.showNote?auction.js)`
-- Line 102: Needs optimization.
+## Related Links
+- [File](/ncu-ad-manager/src/)
+
+## Flow 
+- 
+
+## Relevant Files
