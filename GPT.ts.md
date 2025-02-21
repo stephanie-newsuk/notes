@@ -2,7 +2,7 @@
 id: 3oxogbld03hjuv1ws4pvjgo
 title: GPT
 desc: 'Google Publisher Tag - Google's ad serving technology'
-updated: 1740151733597
+updated: 1740151819653
 created: 1740149636106
 ---
 ## Summary
