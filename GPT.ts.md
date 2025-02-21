@@ -2,13 +2,13 @@
 id: 3oxogbld03hjuv1ws4pvjgo
 title: GPT
 desc: 'Google Publisher Tag - Google's ad serving technology'
-updated: 1740151819653
+updated: 1740151942733
 created: 1740149636106
 ---
 ## Summary
 Google's GPT manages ad delivery and rendering, slot deifntions, targeting and auction processes. This integrates with GAM to serve ads. 
 
-## Code Source
+## Source code
 - [GPT](/ncu-ad-manager/src/Modules/GPT/GPT.ts)
 
 ## Key Links
