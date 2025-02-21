@@ -2,13 +2,8 @@
 id: z9yx4tzorhokwigss7fy3vh
 title: GPT
 desc: 'test'
-updated: 1740176963298
+updated: 1740177022693
 created: 1740149636114
-updated1: <%- new Date(1740176934293).toDateString() %>  # Will show as "Fri Feb 21 2025"
-created2: <%- new Date(1740149636114).toDateString() %>
-up: {{date.now}}
-create: {{date.created}}
-create1: date.created:YYYY-MM-DD:
 ---
 ## Summary
 Google's GPT manages ad delivery and rendering, slot deifntions, targeting and auction processes. This integrates with GAM to serve ads. 
