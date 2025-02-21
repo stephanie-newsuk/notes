@@ -6,13 +6,10 @@ updated: 1740073033601
 created: 1740070162239
 ---
 ## Description: 
-- Related Files: [File](/ncu-ad-manager/src/)
+- Related Files: [Covatic](/ncu-ad-manager/src/Modules/Covatic/Covatic.ts)
 
 ## Summary
 Covatic is a user behaviour tracking and audience segmentation SDK that tracks article and media consumption on the page. This assigns users to audience segments for targeted advertisig. It handles anonymous and authenticated users differently and does require user consent. It helps us to better understand what content users consume to better target ads and is in line with privacy regulations. 
-
-## Key Links
-- [File](/ncu-ad-manager/src/)
 
 ## Flow 
 - Calls the `injectCovaticScript` which injects the covatic script with the `TAG` action.
@@ -20,8 +17,3 @@ Covatic is a user behaviour tracking and audience segmentation SDK that tracks a
 - When initiated the `sendArticleOnPageLoadConsumption` fn is called. This creates the consumption event. This is then passed into the SDK and an action dispatched. 
 - `getSegments` is called which calls `isLoggedIn` from [Page module](/ncu-ad-manager/src/Utils/Page/Page.ts). 
 - It then grabs the segments via `getLinkedAudiences` if the user is logged in, if not then it grabs the segments via `getAudiences`, they return the segments if successful. 
-
-## Tasks
-// TODO: [ ] Find out what EXACTLY a consumption event is and why it is required for covatic
-
-## Ideas for Improvement

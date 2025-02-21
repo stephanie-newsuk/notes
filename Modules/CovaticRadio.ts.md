@@ -2,7 +2,7 @@
 id: dl73hpl659n9px8bj5nxbpp
 title: Covatic Radio
 desc: 'Covatic for radio stations'
-updated: 1740084182383
+updated: 1740084235923
 created: 1740079141073
 ---
 ## Source code: 
