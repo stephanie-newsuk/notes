@@ -5,14 +5,14 @@ desc: 'Dynamic config after initial config'
 updated: 1740073792733
 created: 1740073792733
 ---
-## Code Source
+## Summary
+This handles dynamic configuration loading after the initial config is set up.
+
+## Source Code
 - Related Files: [Config Reducer](/ncu-ad-manager/src/Modules/Config/Config.reducer.ts)
 - Related Files: [Config](/ncu-ad-manager/src/Modules/Config/Config.ts)
 
-## Summary
-This handles dynamic configuration loading after the initial config is set up. 
-
-## Key Links
+## Related Links
 - Related Files: [Covatic](/ncu-ad-manager/src/Modules/Covatic/CovaticAccountLink.ts)
 
 ## General Flow
@@ -36,6 +36,6 @@ This handles dynamic configuration loading after the initial config is set up.
 - `const: UserInfo` makes the JSONP call to the lambda which passes the cookie ID to get their data. 
 - the cookie (ID card) allows you to get your user data (personal file) from the lambda (the secure office)
 
-## Tasks
-
-## Ideas for Improvement
+## Relevant Riles 
+[[LiveRamp]]
+[[Covatic]]

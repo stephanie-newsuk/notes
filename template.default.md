@@ -5,18 +5,16 @@ desc: ''
 updated: 1740080202908
 created: 1740064317643
 ---
-## Code Source
-- [File](/ncu-ad-manager/src/)
-
 ## Summary
 
-## Key Links
+## Source Code
+- [File](/ncu-ad-manager/src/)
+
+
+## Related Links
 - [File](/ncu-ad-manager/src/)
 
 ## Flow 
 - 
 
-## Tasks
-- [ ] 
-
-## Ideas for Improvement
+## Relevant Files
