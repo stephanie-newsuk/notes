@@ -1,8 +1,8 @@
 ---
 id: z9yx4tzorhokwigss7fy3vh
 title: GPT
-desc: 'test'
-updated: 1740182944495
+desc: 'GPT module for ad serving'
+updated: 1740183012516
 created: 1740149636114
 ---
 ## Summary
