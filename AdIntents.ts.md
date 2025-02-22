@@ -20,5 +20,3 @@ Its purpose is to inject a client-specific script for ad targeting. It helps wit
 - After consent is accepted, it injects the AdIntents script. 
 - Before injecting it checks for the environment and whether ot not it is allowed to run. 
 - the script is tweaked with the client name (grabbed from the store)
-
-## Relevant Files
