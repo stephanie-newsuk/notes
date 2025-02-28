@@ -2,14 +2,14 @@
 id: 59srk3rd23aeu12ywadg5lq
 title: Metadata
 desc: 'This is a utility file that contains functions to get metadata from the page'
-updated: 1740756201108
+updated: 1740756373045
 created: 1740752930175
 ---
 ## Summary
+These functions work to provide metadata handling with focus on the type safety, fallback values, different brand requirements and consistent data formatting.  
 
 ## Source Code
 - [Metadata.ts](/ncu-ad-manager/src/Utils/Page/Metadata.ts)
-
 
 ## Related Links
 - [Page](/ncu-ad-manager/src/Utils/Page/Page.ts)

@@ -1,12 +1,12 @@
 ---
 id: x4hkj971vkqyriakyb114zm
-title: ts
-desc: ''
-updated: 1740147377305
+title: Auction Disabler
+desc: 'Disables auctions for certain pages'
+updated: 1740756279139
 created: 1740147377305
 ---
 ## Code Source
-- [File](/ncu-ad-manager/src/)
+- [Auction Disabler](/ncu-ad-manager/src/Modules/AuctionDisabler/AuctionDisabler.ts)
 
 ## Summary
 
